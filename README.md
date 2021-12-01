@@ -4,7 +4,7 @@
 
 例如：
 
-https://cdn.jsdelivr.net/gh/TRHX/CDN-for-- itrhx.com@1.0/images/trhx.png
+https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@1.0/images/trhx.png
 
 https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.0.1/css/style.css
 
