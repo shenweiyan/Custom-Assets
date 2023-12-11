@@ -1,89 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Custom Assets</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        * {
-            padding: 0;
-            margin: 0
-        }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="shenweiyan">
+    <title>维燕的静态资源站点</title>
+	<!-- core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">     
+    <link rel="shortcut icon" href="assets/img/octocat.ico"> 
+</head> 
 
-        a {
-            text-decoration: none
-        }
+<body id="home">
+    <section id="features">
+	    <div class="container">
+	        <div class="section-header">
+                <h2 class="section-title wow fadeInDown">静态资源站点</h2>
+                <p class="wow fadeInDown">Real beauty comes from learning, growing, and loving in the ways of life. That is the Art of Life. <br>这是个人所有开源站点静态资源存储的集合点，主要基于 GIT 进行保存，并通过 Cloudflare Pages 提供访问。</p>
+            </div>
+	        <div class="row FeatLayout">
+                <div class="col-md-5 Featimg"> <img src="assets/img/server.png" alt="feature" class="img-responsive center-block"></div>
+                <div class="col-md-7">
+                    <h2>We Make your website easy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p>
+                    <ul class="listarrow">
+                        <li>
+                            <i class="fa fa-angle-double-right"></i>
+                            <a href="https://boomb.cn/" target="_blank">Boomb</a> - 基于 Github/Gitee 轻松管理您的存储图库
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-double-right"></i>
+                            <a href="https://github.com/shenweiyan/ShenHub" target="_blank">GitHub</a> - shenweiyan/ShenHub
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-double-right"></i>
+                            <a href="https://weiyan.cc" target="_blank">知识花园</a> - 记录 Bio+IT 相关知识，沉淀生活，记录点滴
+                        </li>
+                        <li><i class="fa fa-angle-double-right"></i>
+                            <a href="https://www.bioit.top" target="_blank">网址导航</a> - WebStack 网址导航 Hugo 主题
+                        </li>
+                        <li><i class="fa fa-angle-double-right"></i>如果你通过这个平台学到了一点东西，那么对我最好的奖赏就是请你也尝试教我些东西</li>
+                        <li><i class="fa fa-angle-double-right"></i>您可以通过邮箱、微信，或者其他社交平台和我联系</li>
+                    </ul>
+                </div>
+            </div>
+	    </div>
+	</section>
 
-        .notfoud-container .img-404 {
-            height: 155px;
-            background: url(about/img/web.png) center center no-repeat;
-            -webkit-background-size: 150px auto;
-            margin-top: 40px;
-            margin-bottom: 20px
-        }
 
-        .notfoud-container .notfound-p {
-            line-height: 22px;
-            font-size: 17px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #f6f6f6;
-            text-align: center;
-            color: #262b31
-        }
+    <!--footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2015 Company Name. Template by <a target="_blank" href="http://webthemez.com/" title="Free Bootstrap Themes and HTML Templates">WebThemez.com</a>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer--><!--/#footer-->
 
-        .notfoud-container .notfound-reason {
-            color: unset;
-            font-size: 13px;
-            line-height: 13px;
-            text-align: left;
-            width: 480px;
-            margin: 0 auto
-        }
-
-        .notfoud-container .notfound-reason p {
-            margin-top: 13px
-        }
-
-        .notfoud-container .notfound-reason ul li {
-            margin-top: 10px;
-            margin-left: 36px
-        }
-
-        .notfoud-container .notfound-btn-container {
-            margin: 40px auto 0;
-            text-align: center
-        }
-
-        .notfoud-container .notfound-btn-container .notfound-btn {
-            display: inline-block;
-            border: 1px solid #ebedef;
-            background-color: #239bf0;
-            color: #fff;
-            font-size: 14px;
-            border-radius: 5px;
-            text-align: center;
-            padding: 10px;
-            line-height: 16px;
-            white-space: nowrap
-        }
-    </style>
-</head>
-<body>
-<div class="notfoud-container">
-    <div class="img-404"></div>
-    <p class="notfound-p">维燕的静态资源站点</p>
-    <div class="notfound-reason">
-        <p>这是个人所有开源站点静态资源存储的集合点，主要基于 GIT 进行保存和访问。</p>
-        <p>使用方法：</p>
-        <ul>
-            <li><a href="https://boomb.cn/" target="_blank">Boomb</a> - 基于 Github/Gitee 轻松管理您的存储图库</li>
-            <li><a href="https://github.com/shenweiyan" target="_blank">GitHub</a> - shenweiyan/ShenHub</li>
-        </ul>
-    </div>
-    <div class="notfound-btn-container">
-        <a class="notfound-btn" href="https://weiyan.cc">WeiYan.CC</a>
-    </div>
-</div>
+    <!--script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom-scripts.js"></script-->
 </body>
 </html>
