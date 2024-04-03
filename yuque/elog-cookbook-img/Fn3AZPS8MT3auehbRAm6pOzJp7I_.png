@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchBucket</Code>
+  <Message>The specified bucket does not exist.</Message>
+  <RequestId>64B21AF3D17D34393943E1EB</RequestId>
+  <HostId>note-db.oss-cn-shenzhen.aliyuncs.com</HostId>
+  <BucketName>note-db</BucketName>
+  <EC>0015-00000101</EC>
+</Error>
